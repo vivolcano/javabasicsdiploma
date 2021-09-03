@@ -10,7 +10,8 @@ import java.net.URL;
 
 public class TextGraphicsConverterClass implements TextGraphicsConverter {
 
-    private int maxWidth, maxHeight;
+    private int maxWidth;
+    private int maxHeight;
     private double maxRatio;
     private TextColorSchema schema;
     private char [][] graphic;
