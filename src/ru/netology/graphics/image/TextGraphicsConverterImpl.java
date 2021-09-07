@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.net.URL;
 
 
-public class TextGraphicsConverterClass implements TextGraphicsConverter {
+public class TextGraphicsConverterImpl implements TextGraphicsConverter {
 
     private int maxWidth;
     private int maxHeight;
@@ -147,9 +147,9 @@ public class TextGraphicsConverterClass implements TextGraphicsConverter {
     }
 
     //цветовая схема
-    public TextGraphicsConverterClass() {
+    public TextGraphicsConverterImpl() {
 
-        schema = new TextColorSchemaClass();
+        schema = new TextColorSchemaImpl();
     }
 
     public double getMaxRatio() {
